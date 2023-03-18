@@ -1,0 +1,100 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0": {
+      "MovieApiClient/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/MovieApiClient.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MovieApiClient.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "MovieApiClient/1.0.0": {
+      "type": "project",
+      "path": "../MovieApiClient/MovieApiClient.csproj",
+      "msbuildProject": "../MovieApiClient/MovieApiClient.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0": [
+      "MovieApiClient >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Zsolt Vagasi\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "D:\\Egyetem\\IV\\.net\\BlazorMovieApp\\BlazorMovieApp\\BlazorMovieApp.csproj",
+      "projectName": "BlazorMovieApp",
+      "projectPath": "D:\\Egyetem\\IV\\.net\\BlazorMovieApp\\BlazorMovieApp\\BlazorMovieApp.csproj",
+      "packagesPath": "C:\\Users\\Zsolt Vagasi\\.nuget\\packages\\",
+      "outputPath": "D:\\Egyetem\\IV\\.net\\BlazorMovieApp\\BlazorMovieApp\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\Zsolt Vagasi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "projectReferences": {
+            "D:\\Egyetem\\IV\\.net\\BlazorMovieApp\\MovieApiClient\\MovieApiClient.csproj": {
+              "projectPath": "D:\\Egyetem\\IV\\.net\\BlazorMovieApp\\MovieApiClient\\MovieApiClient.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0": {
+        "targetAlias": "net6.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.AspNetCore.App": {
+            "privateAssets": "none"
+          },
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
